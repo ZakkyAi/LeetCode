@@ -1,0 +1,2 @@
+
+lengthOfLastWord = input("")
