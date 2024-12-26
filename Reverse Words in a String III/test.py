@@ -1,11 +1,10 @@
 class Solution(object):
     def reverseWords(self, satu):
-        simpan = []
-        titit = satu.split()
-        besar = titit[::-1]
-        
-        for titit in 
-
+        titit = satu.split()  # Split the string into words
+        besar = titit[::-1]   # Reverse the list of words
+        hasil = " ".join(besar)  # Join the reversed words into a single string
+        return hasil
 
 solution = Solution()
-solution.reverseWords("the sky is blue")
+result = solution.reverseWords("the sky is blue")
+print(result)  # Output: "blue is sky the"
