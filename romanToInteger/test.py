@@ -18,3 +18,4 @@ class Solution(object):
         return total
         
 solution = Solution()
+print(solution.romanToInt("VII"))
